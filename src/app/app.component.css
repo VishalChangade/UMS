@@ -27,6 +27,13 @@ a:hover{
     margin-left: 50px;
     color: red;
 }
+body{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    background-color: aqua;
+}
 
 @media (max-width:480px){
     .navbar-nav{
